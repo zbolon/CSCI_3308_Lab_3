@@ -1,0 +1,22 @@
+html, body {
+        height: 100%;
+        margin: 0;
+}
+
+    /* Use flexbox to create a column layout */
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
